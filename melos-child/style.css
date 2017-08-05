@@ -1,0 +1,48 @@
+ /*
+ Theme Name:   Melos
+ Theme URI:    http://wmgpodcasters.com/melos/
+ Description:  Melos
+ Author:       Isabella Basco
+ Author URI:   http://wmgpodcasters.com
+ Template:     melos
+ Version:      1.1.10
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         black, dark, orange, red, blue, one-column, two-columns, three-columns, right-sidebar, left-sidebar, fixed-layout, responsive-layout, fluid-layout, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, editor-style, featured-images, featured-image-header, post-formats, sticky-post, translation-ready, flexible-header, gray, light, white, custom-background, grid-layout, footer-widgets, blog, e-commerce, education, entertainment, news, photography, portfolio
+ Text Domain:  Melos
+*/
+}
+
+h1.site-title, h1.page-title, #section-home-inner, div#section-home {
+	display:none !important
+
+}
+
+#logo{
+	background-image: url(/wp-content/themes/melos-child/WMG.jpg); 
+	background-size: 100%; 
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+}
+
+.podcast-description{
+	font-size:20px;
+	color: darkblue;
+}
+
+.podcastdetail{
+	font-size:18px;
+	color: darkblue; 
+}
+
+.WMGPodcastPolicySeries{
+	font-size:20px;
+	color:darkblue;
+
+}
+
+.podcastslideshow{
+	font-size:25px;
+	color:darkblue;
+}
