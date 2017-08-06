@@ -84,20 +84,20 @@
 		<div id="main">
 		<div id="main-core">
 
-		 <img class="wmg" src= "/wp-content/themes/melos-child/images/wmg.jpg" style="width:60%">
+		 <img class="wmg" src="/wp-content/themes/melos-child/images/wmg.jpg"/>
 
 		<p class="podcast-description">The Washington Media Group is a full-service strategic communications firm located in the heart of Washington D.C. As a firm of former journalists, we have the knowledge and background to enhance public affairs campaigns and reach target audiences. We are now launching a social audio practice which will help clients use podcasts and audio storytelling to enhance their social media space. So far, we have produced many successful podcasts surrounding policy and public relations. Here is a list of the podcasts the Washington Media Group has produced.</p>
 			<p class="podcastdetail">Risk and Reality, a podcast that helps you manage uncertainty abroad.</p>
 
-		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330358083&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<iframe width="60%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330358083&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 		
-		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330358300&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<iframe width="60%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330358300&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330358811&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<iframe width="60%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330358811&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 		<p class="WMGPodcastPolicySeries">The WMG Podcast Policy Series. The first episode is about the Farm Bill. Here, we interview two congressmen, two journalists, two farmers and a hunger advocate to talk about the importance of the Farm Bill.</p> 
 
-		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334051922&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<iframe width="60%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334051922&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 		<p class="podcastslideshow">These are the cover images of the podcasts we are planning/are in process for the upcoming season.</p> 
 
@@ -142,6 +142,11 @@ h1.site-title, h1.page-title, #section-home-inner, div#section-home {
 .podcastslideshow{
 	font-size:25px;
 	color:darkblue;
+}
+.wmg{
+	float:left; 
+	margin-right:20px;
+	width:23%;
 }
 </style>
 <script>
