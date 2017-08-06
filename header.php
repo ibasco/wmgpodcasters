@@ -95,7 +95,9 @@
 
 		<iframe width="60%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330358811&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-		<p class="WMGPodcastPolicySeries">The WMG Podcast Policy Series. The first episode is about the Farm Bill. Here, we interview two congressmen, two journalists, two farmers and a hunger advocate to talk about the importance of the Farm Bill.</p> 
+		<p class="WMGPodcastPolicySeries">The WMG Podcast Policy Series. 
+
+		The first episode is about the Farm Bill. Here, we interview two congressmen, two journalists, two farmers and a hunger advocate to talk about the importance of the Farm Bill.</p> 
 
 		<iframe width="60%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334051922&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 		
@@ -141,7 +143,7 @@ h1.site-title, h1.page-title, #section-home-inner, div#section-home {
 }
 
 .podcastslideshow{
-	font-size:25px;
+	font-size:18px;
 	color:darkblue;
 }
 .wmg{
