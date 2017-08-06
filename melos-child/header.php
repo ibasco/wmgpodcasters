@@ -84,7 +84,9 @@
 		<div id="main">
 		<div id="main-core">
 
-		<p class="podcast-description">A list of the podcasts the Washington Media Group has produced.</p>
+		 <img class="wmg" src= "/wp-content/themes/melos-child/images/wmg.jpg" style="width:60%">
+
+		<p class="podcast-description">The Washington Media Group is a full-service strategic communications firm located in the heart of Washington D.C. As a firm of former journalists, we have the knowledge and background to enhance public affairs campaigns and reach target audiences. We are now launching a social audio practice which will help clients use podcasts and audio storytelling to enhance their social media space. So far, we have produced many successful podcasts surrounding policy and public relations. Here is a list of the podcasts the Washington Media Group has produced.</p>
 			<p class="podcastdetail">Risk and Reality, a podcast that helps you manage uncertainty abroad.</p>
 
 		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330358083&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
