@@ -119,6 +119,7 @@
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <p></p>
 </div>
 <style>
 h1.site-title, h1.page-title, #section-home-inner, div#section-home {
@@ -160,10 +161,22 @@ h1.site-title, h1.page-title, #section-home-inner, div#section-home {
 	width:23%;
 }
 </style>
+<div>
+	<div class="entry-content">	
+	<h1 class="contact-title">Contact us for social audio help!</h1> 
+	<label>subject</label>
+	<input type="text" id="subject"> 
+	<button onclick="submitcontact()">submit</button>
+	</div>
+</div>
+
 <script>
 var myIndex = 0;
 carousel();
-
+function submitcontact(){
+	var subject=document.getElementById("subject").value
+	window.location.href="mailto:ibasco@washingtonmedia.com?Subject="+subject
+}
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
@@ -176,5 +189,6 @@ function carousel() {
     setTimeout(carousel, 7000); // Change image every 7 seconds
 }
 </script> 
+
 
 
