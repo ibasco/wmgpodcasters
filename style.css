@@ -31,6 +31,12 @@ h1.site-title, h1.page-title, #section-home-inner, div#section-home {
 	color: darkblue;
 }
 
+.podcasttitle{
+	font-size:20px;
+	color:darkblue;
+
+}
+
 .podcastdetail{
 	font-size:18px;
 	color: darkblue; 
@@ -40,6 +46,11 @@ h1.site-title, h1.page-title, #section-home-inner, div#section-home {
 	font-size:20px;
 	color:darkblue;
 
+}
+
+.farmbilldescription{
+	font-size:18px;
+	color:darkblue;
 }
 
 .podcastslideshow{
