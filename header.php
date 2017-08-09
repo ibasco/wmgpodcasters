@@ -88,15 +88,11 @@
 
 		
 
-		<p class="podcastslideshow">These are the cover images of the podcasts we are planning/are in process for the upcoming season.</p> 
-
+		
 		<div class="w3-content w3-display-container">
-  <img class="mySlides" src="/wp-content/themes/melos-child/images/farmbillphoto.png" style="width:40%">
-  <img class="mySlides" src="/wp-content/themes/melos-child/images/riskandreality.png" style="width:40%">
-  <img class="mySlides" src="/wp-content/themes/melos-child/images/FlackPackphoto.jpg" style="width:40%">
+ 
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  
   <p></p>
 </div>
 <style>
@@ -142,7 +138,7 @@ h1.site-title, h1.page-title, #section-home-inner, div#section-home {
 
 <script>
 var myIndex = 0;
-carousel();
+
 function submitcontact(){
 	var subject=document.getElementById("subject").value
 	window.location.href="mailto:ibasco@washingtonmedia.com?Subject="+subject
@@ -158,6 +154,7 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 7000); // Change image every 7 seconds
 }
+window.onload=carousel;
 </script> 
 
 
