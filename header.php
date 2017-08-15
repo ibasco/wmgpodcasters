@@ -141,6 +141,7 @@ var myIndex = 0;
 
 function submitcontact(){
 	var subject=document.getElementById("subject").value
+	var name=document.getElementById("Your name").value
 	window.location.href="mailto:ibasco@washingtonmedia.com?Subject="+subject
 }
 function carousel() {
